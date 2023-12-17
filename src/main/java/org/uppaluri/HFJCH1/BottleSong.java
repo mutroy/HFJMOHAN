@@ -1,4 +1,4 @@
-package org.uppaluri;
+package org.uppaluri.HFJCH1;
 
 public class BottleSong {
     public static void main(String[] args) {
