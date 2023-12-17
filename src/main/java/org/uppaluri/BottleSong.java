@@ -14,7 +14,7 @@ public class BottleSong {
 
             System.out.println(bottlesNum + " green " + word + ", hanging on the wall");
             System.out.println(bottlesNum + " green " + word + ", hanging on the wall");
-            System.out.println("And if one green bootle should accidentally fall,");
+            System.out.println("And if one green bottle should accidentally fall,");
             bottlesNum = bottlesNum - 1;
 
             if (bottlesNum > 0) {
