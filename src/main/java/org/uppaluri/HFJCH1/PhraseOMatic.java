@@ -15,17 +15,20 @@ public class PhraseOMatic {
 
         //generate three random numbersw
         java.util.Random randomGenerator = new java.util.Random();
-        int rand1 = randomGenerator.nextInt(oneLength);
-        int rand2 = randomGenerator.nextInt(twoLength);
-        int rand3 = randomGenerator.nextInt(threeLength);
+
+        for (int k = 0; k < 100; k++) {
+            int rand1 = randomGenerator.nextInt(oneLength);
+            int rand2 = randomGenerator.nextInt(twoLength);
+            int rand3 = randomGenerator.nextInt(threeLength);
 
 
-        //Now build a phrase
+            //Now build a phrase
 
-        String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
+            String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
 
-        //printout the phrase
-        System.out.println("What we need is a " + phrase);
+            //printout the phrase
+            System.out.println("What we need is a " + phrase);
+        }
     }
 
 }
